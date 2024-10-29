@@ -1,5 +1,3 @@
-pub mod error;
-
 use thiserror::Error;
 #[derive(Error, Debug)]
 pub enum BtcError {
